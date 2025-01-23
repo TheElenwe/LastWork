@@ -120,6 +120,7 @@ nav {
     margin: 0 auto;
     padding: 0 40px;
     min-width: 1400px;
+    
 }
 
 /* Stats Section */
@@ -438,7 +439,8 @@ footer {
 
 .elegance-content img {
     width: 100%;
-    height: 180px;
+    
+    height: 280px;
     object-fit: cover;
     border-radius: 16px;
     margin-top: 16px;
@@ -449,6 +451,7 @@ footer {
 .image-container {
     position: relative;
     width:100%;
+
     /* width:30vw; */
     
     border-radius: 16px;
@@ -458,21 +461,19 @@ footer {
 
 .image-container img {
     width: 100%;
-    height: 100%;
+    height:100%;
+    /* height: 100%; */
     object-fit: cover;
 }
 
 
 
 .image-container2 {
-    width:1080;
-    height:600px;
-    /* width:30vw;
-    height:19vw; */
+    width:100%;
+
     
    
     position: relative;
-    /
     border-radius: 16px;
     overflow: hidden;
   
@@ -481,6 +482,9 @@ footer {
 .image-container2 img {
     width: 100%;
     height:100%;
+
+    
+  
     object-fit: cover;
 }
 
@@ -521,6 +525,7 @@ footer {
     position: relative;
     border-radius: 24px;
     overflow: hidden;
+    
     /* widtH:65vw;
     height:40vw; */
     /* min-width: 900px;
