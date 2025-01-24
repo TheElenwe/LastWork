@@ -12,6 +12,7 @@ body {
     width: 100%;
     min-width: 1400px;
     overflow-x: auto;
+   
     
     /* font-family: Arial, sans-serif;
     color: #333;
@@ -69,11 +70,12 @@ nav {
 
 /* Hero Section */
 .hero {
+    border-radius: 16px !important;
     height: 90vh;
     min-height: 600px;
     max-height: 900px;
     margin: 100px auto 0;
-    width: 100%;
+    width: 92%;
     border-radius: 0;
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
                 url('pexels-heyho-6438762.jpg');
@@ -83,7 +85,7 @@ nav {
     align-items: center;
     padding-left: 80px;
     color: white;
-    min-width: 1400px;
+    /* min-width: 1400px; */
 }
 
 .hero-content {
@@ -116,7 +118,7 @@ nav {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 24px;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     padding: 0 40px;
     min-width: 1400px;
@@ -142,7 +144,7 @@ nav {
 /* Style Section */
 .style-section {
     padding: 80px 40px;
-    width: 100%;
+    width: 94%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -764,7 +766,7 @@ footer {
     display: block;
   }
 } 
-
+}
 /* .view-more-btn {
     display: inline-flex;
     align-items: center;
@@ -787,4 +789,4 @@ footer {
 .view-more-btn .arrow {
     margin-left: 8px;
 }
-} */
+} 
