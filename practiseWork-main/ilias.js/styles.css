@@ -267,6 +267,13 @@ nav {
     min-width: 1400px;
 }
 
+.header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
 .collection-header h2 {
     font-size: 42px;
     font-weight: 500;
@@ -279,7 +286,6 @@ nav {
     color: #666;
     max-width: 300px;
     text-align: right;
-    margin-left: auto;
 }
 
 .collection-grid {
@@ -758,4 +764,27 @@ footer {
     display: block;
   }
 } 
+
+/* .view-more-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 16px 36px;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+.view-more-btn:hover {
+    background: #333;
+    transform: translateY(-2px);
+}
+
+.view-more-btn .arrow {
+    margin-left: 8px;
+}
+} */
